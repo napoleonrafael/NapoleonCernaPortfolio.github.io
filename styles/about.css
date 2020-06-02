@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    /*This is needed to make the body the same height as the browser window*/
+    height: 100%;
+
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+h1 {
+    padding: 10px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+h4 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h5 {}
+
+ul {
+    text-align: left;
+    list-style: inside; /* This line is needed to have the bullets be inside the box*/
+    padding-left: 10px;
+}
+
+p {
+    padding: 2px;
+}
+
+header {
+    height: 35%;
+    background-color: #41A4F5;
+    color: white;
+}
+
+#Profile_Image {
+    width: 120px;
+    float: left;
+    margin: 10px 25px 0px 40px;
+    clear: left;
+
+
+}
+
+#header_section {
+    margin-left: 40px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+
+
+}
+
+#header_section h1 {
+    font-size: 200%;
+}
+
+main {
+    height: 55%;
+    width: 100%;
+    background-color: #F7F8FA;
+}
+
+#Skills_Overview {
+    text-align: center;
+}
+
+#Skills_Overview p {
+    color: black;
+}
+
+.skills {
+    margin-top: 25px;
+    width: 250px;
+    height: 200px;
+    border-style: solid;
+    border-color: #eceef2;
+    border-width: 1px;
+    border-radius: 10px;
+    text-align: left;
+    background-color: white;
+    box-shadow: 2px 3px #eceef2;
+}
+
+#front_skills_container { 
+   width: 33.33%;
+   float: left;
+   text-align: right;
+    /*
+       border-style: solid;
+       border-color: #eceef2;
+       border-width: 1px;
+    */
+}
+
+#front_end_skills {
+    display: inline-block;
+}
+
+#back_skills_container { 
+   width: 33.33%;
+   float: left;
+   text-align: center;
+    /*
+       border-style: solid;
+       border-color: #eceef2;
+       border-width: 1px;
+
+    */
+}
+
+#back_end_skills {
+   display: inline-block;
+}
+
+#other_skills_container { 
+   width: 33.33%;
+   float: right;
+   text-align: left;
+    /*
+       border-style: solid;
+       border-color: #eceef2;
+       border-width: 1px;
+    */
+}
+#other_skills {
+    display: inline-block;
+}
+
+footer {
+    height: 10%;
+    background-color: #41A4F5;
+    background-color: blue;
+    color: white;
+    clear: both;
+
+}
+
+#footer_section {
+    text-align: center;
+
+}
+
+footer h2 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none !important;
+}
+
+/* the styles for the horizontal navigation menu */
+#nav_menu_3 ul {
+    list-style: none;
+    background-color: blue;
+    overflow: hidden;
+}
+
+#nav_menu_3 ul li {
+    float: left;
+}
+
+#last_li {}
+
+/*Formatting for anchor tags*/
+#nav_menu_3 ul li a {
+    text-align: center;
+    display: block;
+    width: 100px;
+    padding: 0.5em 0;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+#about_anchor {
+    border-bottom: 2px solid white;
+}
